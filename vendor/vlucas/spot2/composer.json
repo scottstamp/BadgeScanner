@@ -1,0 +1,27 @@
+{
+    "name": "vlucas/spot2",
+    "version": "2.0.4",
+    "type": "library",
+    "description": "Simple DataMapper built on top of Doctrine DBAL",
+    "keywords": ["orm", "datamapper", "dbal", "doctrine", "database", "model", "mapper", "entity"],
+    "homepage": "https://github.com/vlucas/spot2",
+    "license" : "BSD",
+    "authors" : [
+        {
+            "name": "Vance Lucas",
+            "email": "vance@vancelucas.com",
+            "homepage": "http://www.vancelucas.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "vlucas/valitron": "1.x",
+        "doctrine/dbal": "~2.4",
+        "sabre/event": "~2.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Spot": "lib/"
+        }
+    }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "bobbajuice/badgescanner",
+  "description": "Badge Scanner for Habbo Hotel",
+  "minimum-stability": "dev",
+  "license": "open-source",
+  "authors": [
+    {
+      "name": "Scott Stamp",
+      "email": "scott@hypermine.com"
+    }
+  ],
+  "autoload": {
+    "psr-0": {
+      "BobbaJuice\\BadgeScanner\\": "lib/"
+    }
+  },
+  "require": {
+    "vlucas/spot2": "2.0.4"
+  }
+}

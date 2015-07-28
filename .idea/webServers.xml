@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="34231cc3-2a71-48b9-8fc9-9a2c270c66d3" name="cerberus" url="http://cerberus.hypermine.com/bobbajuice/badgescanner">
+        <fileTransfer host="cerberus.hypermine.com" port="22" rootFolder="/var/www/bobbajuice/badgescanner" accessType="SFTP" username="root">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
